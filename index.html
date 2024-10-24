@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia de Escrituras SUD</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Trivia de Escrituras SUD</h1>
+        <div id="game-area" class="hide">
+            <div id="question-container">
+                <h2 id="question">Pregunta</h2>
+                <div id="answer-buttons" class="btn-grid"></div>
+            </div>
+            <div id="controls">
+                <div id="timer">Tiempo: <span id="time">60</span> segundos</div>
+                <div id="score">Puntuación: <span id="points">0</span></div>
+            </div>
+        </div>
+        <button id="start-btn" class="start-btn">Comenzar</button>
+        <div id="final-screen" class="hide">
+            <div id="final-score">¡Juego terminado! Tu puntuación es: <span id="final-points"></span></div>
+            <div id="answer-review"></div>
+            <button id="restart-btn" class="start-btn hide">Volver a jugar</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>Juego hecho por <a href="https://sudunidos.vercel.app/" target="_blank">Sud Unidos</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
